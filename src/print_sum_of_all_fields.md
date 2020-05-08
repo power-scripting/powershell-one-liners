@@ -9,7 +9,7 @@ This one-liner turns on field auto-splitting with the -a command-line option and
 perl -MList::Util=sum -alne 'print sum @F'
 ```
 
-For example, the line 1 4 8 would be split on each space so that @F would become (1, 4, 8). The sum @F statement sums the elements in the @F array, giving you 13.
+For example, the line 1 4 8 would be split on each space so that @F would become `(1, 4, 8)`. The sum `@F` statement sums the elements in the `@F` array, giving you 13.
 
 ```
 1 2 3 4 5 6 7 8 9 10
